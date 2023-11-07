@@ -1,11 +1,10 @@
 
 import img1 from '../../public/istockphoto-1469706490-1024x1024.jpg'
-import Container from '../components/Ui/Container';
 
 const Home = () => {
     return (
 
-        <Container>
+        <div className=" max-w-[1200px] mx-auto px-5 lg:px-1 mt-10 py-14">
             <div className='flex flex-col lg:flex-row gap-10 items-center'>
                 <div className='flex-[1]'>
                     <h1 className='text-6xl font-bold pb-4'><span className='text-pink-600'>Q</span>uality Cleaning for Your Home</h1>
@@ -44,7 +43,7 @@ const Home = () => {
                     <img src={img1} className='w-full h-full object-cover' alt="" />
                 </div>
             </div>
-        </Container>
+        </div>
     );
 };
 
